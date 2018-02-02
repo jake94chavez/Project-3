@@ -23,15 +23,16 @@ https://trello.com/b/3i82a0CG
 	+ 
 
 ### User Stories
-+ 
-+ 
-+ 
++ User should see posts on the home page they can access
++ User should be able to access and read posts
++ User should be able to make a post
++ User should be able to critique posts
++ User should earn credits for critiquing posts
++ User should be able to unlock critiques on their posts with credits
 
 ### MVP 
-+ 
-+ 
-+ 
-+ 
++ User should be able to post
++ User should be able to find other posts and comment on them
 
 ### Stretch-Goals
 + 
