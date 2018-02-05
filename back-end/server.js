@@ -1,8 +1,8 @@
 require('dotenv').config();
 
-var express = require('express');
-var app = express();
-var roughDraftRouter = require('./config/routes.js');
+const express = require('express');
+const app = express();
+const roughDraftRouter = require('./config/routes.js');
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -11,7 +11,7 @@ app.use(function(req, res, next) {
   next();
 });
 
-var bodyParser = require('body-parser');
+const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
 app.use(roughDraftRouter);
