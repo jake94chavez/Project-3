@@ -16,12 +16,6 @@ With this project I want to create a one-for-one peer-to-peer critiquing environ
 ### Trello Workflow
 https://trello.com/b/3i82a0CG
 
-### User Personas
-+ 
-	+ 
-+ 
-	+ 
-
 ### User Stories
 + User should see posts on the home page they can access
 + User should be able to access and read posts
@@ -33,8 +27,3 @@ https://trello.com/b/3i82a0CG
 ### MVP 
 + User should be able to post
 + User should be able to find other posts and comment on them
-
-### Stretch-Goals
-+ 
-+ 
-+ 
