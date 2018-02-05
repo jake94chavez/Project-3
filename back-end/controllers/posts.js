@@ -46,7 +46,7 @@ function destroy(req, res) {
 	console.log('deleting id: ', req.params.id);
 	Post.remove({_id: req.params.id}, function(err) {
 		if (err) { console.log('error', err); }
-		console.log('removal of id=' + req.params.id +' successful.');
+		console.log('successfully removed post with id= ' + req.params.id);
 		res.status(200).send();
 	})
 }
