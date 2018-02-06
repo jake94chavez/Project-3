@@ -2,6 +2,13 @@ const express = require('express');
 const router = express.Router();
 var postsController = require('../controllers/posts');
 var commentsController = require('../controllers/comments');
+const Post = require('../models/post')
+
+router.get('/', function(req, res, next) {
+   Post.find({}, function(err, Post) {
+    res.json(Post);  
+  });
+});
 
 //Post Routes
 router.get('/api/posts', postsController.index)
